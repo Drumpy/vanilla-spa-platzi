@@ -1,18 +1,19 @@
 {
-  "name": "100tifico",
+  "name": "cientifico",
   "version": "1.0.0",
-  "description": "SPA con Javascript Vanilla - Platzi",
+  "description": "single page application",
   "main": "index.js",
   "scripts": {
-    "watch": "webpack --watch",
-    "build": "webpack --mode production",
-    "start": "webpack serve --open --mode development"
+    "build": "webpack --modo production",
+    "start": "webpack-dev-server --open --mode development"
   },
-  "author": "Drumpy",
-  "license": "ISC",
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Oscar Barajas <oscar@platzi.com>",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "7.7.5",
-    "@babel/preset-env": "^7.14.7",
     "babel-loader": "8.0.6",
     "html-webpack-plugin": "3.2.0",
     "webpack": "4.41.2",
